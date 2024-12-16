@@ -42,8 +42,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2024-12-09T20:08:49Z</dcterms:created>
   <dc:creator>sarpe</dc:creator>
   <cp:lastModifiedBy>sarpe</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-12-16T21:52:16Z</dcterms:modified>
-  <cp:revision>1.2</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-12-16T21:54:49Z</dcterms:modified>
+  <cp:revision>1.3</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
 
@@ -109,7 +109,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.2&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.3&gt;</P>
     </ConfigManagerSettings>
     <SimulationSettings>
       <P Name="SimulationMode">normal</P>
@@ -920,8 +920,8 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="9f5edc51-9b36-47c8-974d-58f78215fe8f">
-    <Interface type="Interface" uuid="ce436db8-5bc0-4508-8429-2ae29b97f6a6"/>
+  <System type="System" uuid="4fc8b631-6c46-41fc-9b10-a89d61c5cff0">
+    <Interface type="Interface" uuid="55db7dd4-a482-4417-82c0-189143ea149f"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
@@ -960,18 +960,24 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[1919, -7, 3841, 1034]</P>
+  <P Name="Location">[-1, -8, 1921, 1033]</P>
   <P Name="Open">on</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">2</P>
+  <P Name="SIDHighWatermark">3</P>
   <Block BlockType="Constant" Name="Constant" SID="1">
     <P Name="Position">[490, 315, 520, 345]</P>
     <P Name="ZOrder">1</P>
+    <P Name="Value">2</P>
   </Block>
   <Block BlockType="Constant" Name="Constant1" SID="2">
-    <P Name="Position">[495, 400, 525, 430]</P>
+    <P Name="Position">[370, 400, 525, 430]</P>
     <P Name="ZOrder">2</P>
     <P Name="Value">3</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant2" SID="3">
+    <P Name="Position">[530, 525, 560, 555]</P>
+    <P Name="ZOrder">3</P>
+    <P Name="Value">5</P>
   </Block>
 </System>
 
@@ -981,7 +987,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[1919.0, -7.0, 1922.0, 1041.0]</P>
+      <P Name="Location" Class="double">[-1.0, -8.0, 1922.0, 1041.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">1</P>
         <P Name="DockPosition" Class="char">Left</P>
